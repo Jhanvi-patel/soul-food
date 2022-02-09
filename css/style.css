@@ -1,0 +1,142 @@
+/* img {
+    object-fit: cover;
+} */
+*
+{ box-sizing: border-box;}
+img 
+{ object-fit: cover;
+}
+.navbar{ background-color:#d18534e6; position: sticky; top: 0; z-index: 1 ; font-family: 'Dosis', sans-serif;}
+
+.menu .imgwrap {display:block; float: left; width: 100%;}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+  }
+ /* .navbaronline {background-color: #f7f4f2; color: black;} */
+ .navbarfood ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+
+}
+.signin {padding-left: 255px;}
+@media screen and (max-width:900px) {
+  .signin {padding-left: 0px;}
+}
+.navbarfood li {
+  float: left;
+}
+/* .imgwrap{ width: 100%;} */
+.navbarfood a {
+  /* display: block; */
+  color: rgb(19, 17, 17);
+  font-size: 18px;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  /* margin: 30px; */
+}
+
+.navbarfood li a:hover {
+  background-color: rgb(238, 186, 14);
+}
+
+section .menu{ margin: 10px; padding: 5px;}
+  
+
+ .menuhome .row{ background-color: #f7f4f2; border-radius: 25px; border: 3px solid #0c0c0b; }
+ .menuhome .row h4{font-family: 'Cinzel Decorative', cursive;font-family: 'Fjalla One', sans-serif;font-family: 'IM Fell Double Pica SC', serif; color: rgb(236, 193, 72); text-shadow: rgb(88, 84, 74) 2px 2px; font-size: 80px;}
+.menuhome .btn{ color: #2c4552;background-color: #F3A161;border-color: #2c4552; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.centered {
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  color: #f7f4f2;
+  font-family: 'Cinzel Decorative', cursive;font-family: 'Fjalla One', sans-serif;font-family: 'IM Fell Double Pica SC', serif;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 248, 241); text-shadow: rgb(214, 174, 71) 2px 2px; font-size: 77px;
+}
+.online .centered {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  color: #f7f4f2;
+  font-family: 'Cinzel Decorative', cursive;font-family: 'Fjalla One', sans-serif;font-family: 'IM Fell Double Pica SC', serif;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 248, 241); text-shadow: rgb(214, 174, 71) 2px 2px; font-size: 59px;
+}
+
+.location .centered {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  color: #f7f4f2;
+  font-family: 'Cinzel Decorative', cursive;font-family: 'Fjalla One', sans-serif;font-family: 'IM Fell Double Pica SC', serif;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 248, 241); text-shadow: rgb(214, 174, 71) 2px 2px; font-size: 101px;
+}
+.online .row{ background-color: #f7f4f2; border-radius: 25px; border: 3px solid #0c0c0b; }
+.online .row h4{font-family: 'Cinzel Decorative', cursive;font-family: 'Fjalla One', sans-serif;font-family: 'IM Fell Double Pica SC', serif; color: rgb(236, 193, 72); text-shadow: rgb(88, 84, 74) 2px 2px; font-size: 60px;}
+.online .btn{ color: #2c4552;background-color: #F3A161;border-color: #2c4552; font-family: Impact, 
+  Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.footer {background-color: #59554d; color: white; width: auto; padding-top: 50px;}
+.footer h3 { color: tomato;}
+.footerbottom {background-color: rgb(48, 46, 46); color: white; width: auto;}
+.footer p{ font-family: Verdana, Geneva, Tahoma, sans-serif;}
+/* menu bg */
+.middle .container { background-image: url(../image/menu\ bg.jpeg); height: auto;width: 100%;}
+
+
+/* menu page */
+.menubanner{
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  color: #f7f4f2;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'IM Fell Double Pica SC', serif;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 248, 241);
+  text-shadow: rgb(214 174 71) 2px 2px;
+  font-size: 29px;}
+
+  .menubannerb{
+    position: absolute;
+    top: 12%;
+    left: 49%;
+    color: #f7f4f2;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IM Fell Double Pica SC', serif;
+    transform: translate(-50%, -50%);
+    color: rgb(250, 248, 241);
+    text-shadow: rgb(214 174 71) 2px 2px;
+    font-size: 29px;}
+
+
+.menuselect a {
+  color: #0c0c0c;
+  text-decoration: none;
+  
+}
+ .menuselect a:hover {
+  color: #e44876;
+  text-decoration: underline;
+}
+/* login page */
+.colortext{ color: aliceblue;}
+.login{align-items: center;
+  background: #ecab76;display: flex;
+  flex-direction: column;
+  background-image: url(../image/login\ bg.jpg) ;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;}
+  
+.loginbg{ height: 386px;}
